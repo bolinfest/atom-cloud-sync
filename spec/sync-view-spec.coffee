@@ -146,7 +146,7 @@ describe 'SyncView', ->
 
         dir = new Directory(fullPathFor 'nodesc')
         sf = new File(fullPathFor 'nodesc', SYNCFILE)
-        expect(sf.exists()).toBe(true)
+        expect(sf.existsSync()).toBe(true)
 
         sd = null
         SyncDescription.createFrom sf, dir, (err, desc) ->

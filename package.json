@@ -6,11 +6,11 @@
   "repository": "https://github.com/rackerlabs/atom-cloud-sync",
   "license": "Apache 2",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.180.0"
   },
   "dependencies": {
     "pkgcloud": ">=0.9.4",
     "underscore-plus": "1.x",
-    "pathwatcher": "1.2.1"
+    "pathwatcher": "3.3.1"
   }
 }
